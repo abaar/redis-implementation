@@ -71,9 +71,43 @@ sentinel failover-timeout mymaster 10000
 ```
 
 ## Testing
-### Basic Test
-#### PING
+### RUN
+To run Redis, you need to execute `redis-server` which placed in `src` folder of the redis.
 ```
+src/redis-server redis.conf &
+src/redis-server sentinel.conf --sentinel &
+```
+If everything goes well, it should show Redis process like these
 
-```
+![Master Succedd](https://github.com/abaar/redis-implementation/blob/master/Screenshoots/master%20run.PNG)
+
+### Master Redis Log
+After you run all the Nodes, the log will be look like these
+![Master Redis](https://github.com/abaar/redis-implementation/blob/master/Screenshoots/redislog.PNG)
+
+### Info Replication and Basic Test
+#### Master
+![Master info replication](https://github.com/abaar/redis-implementation/blob/master/Screenshoots/master-info-replication.PNG)
+
+#### Slave1
+![Slave1 info replication](https://github.com/abaar/redis-implementation/blob/master/Screenshoots/info-replication.PNG)
+
+#### Slave2
+![Slave2 info replication](https://github.com/abaar/redis-implementation/blob/master/Screenshoots/info-replication2.PNG)
+
 ### Failover
+If you kill Master Redis process , *not the sentinel*. A new master will be promoted, in my case `redisslave1` is promoted as new Master as screenshoot below.
+
+#### At Slave2
+`redisslave2` then will point `redisslave1` as the new Master, and the cluster should do its job properly
+![slave2 info replication after down](https://github.com/abaar/redis-implementation/blob/master/Screenshoots/info-replication%20after.PNG)
+
+#### Log at Slave1
+As the master refused the connection , the sentinel will vote a new master. Here is a `redis.log` at `redisslave1`
+![slave1 log](https://github.com/abaar/redis-implementation/blob/master/Screenshoots/slave1-redislog.PNG)
+
+and here is its `sentinel.log`
+![slave1 log2](https://github.com/abaar/redis-implementation/blob/master/Screenshoots/slave1-sentinel.PNG)
+
+## Conclusion
+Just like other NoSQL Tools, Redis requirement to be a distributed database is easy to set up. It's a NoSQL with key-value pair as datas, pretty easy to use, clear logs to define any problem.
