@@ -1,6 +1,19 @@
 # Redis Implementation & Master Slave Failover
 
 ## Jumpto
+1. [Architecture](#architecture)
+2. [Installation](#installation)
+   1. [Install Required Tools](#install-required-tools)
+   2. [Allow Redis Working Port](#allow-redis-working-port)
+   3. [Install Redis](#install-redis)
+3. [Configuration](#configuration)
+   1. [Redis Configuration](#redis-configuration)
+   2. [Sentinel Configuration](#sentinel-configuration)
+4. [Testing](#testing)
+   1. [Run](#run)
+   2. [Info Replication and Basic Test](#info-replication-and-basic-test)
+   3. [Failover](#failover)
+5. [Conclusion](#conclusion)
 
 ## Architecture
 No | Name | IP | Deskripsi
@@ -79,7 +92,7 @@ src/redis-server sentinel.conf --sentinel &
 ```
 If everything goes well, it should show Redis process like these
 
-![Master Succedd](https://github.com/abaar/redis-implementation/blob/master/Screenshoots/master%20run.PNG)
+![Master Succeed](https://github.com/abaar/redis-implementation/blob/master/Screenshoots/master%20run.PNG)
 
 ### Master Redis Log
 After you run all the Nodes, the log will be look like these
