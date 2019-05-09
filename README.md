@@ -58,3 +58,8 @@ sentinel monitor mymaster 192.168.32.232 6379 2
 sentinel down-after-milliseconds mymaster 5000
 sentinel failover-timeout mymaster 10000
 ```
+
+## Testing
+### Basic Test
+
+### Failover
