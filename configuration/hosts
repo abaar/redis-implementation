@@ -1,0 +1,4 @@
+127.0.0.1 localhost
+192.168.32.232 redismaster
+192.168.32.233 redisslave1
+192.168.32.234 redisslave2

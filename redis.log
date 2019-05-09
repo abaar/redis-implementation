@@ -1,0 +1,127 @@
+8709:C 08 May 2019 15:07:20.433 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8709:C 08 May 2019 15:07:20.433 # Redis version=5.0.4, bits=64, commit=00000000, modified=0, pid=8709, just started
+8709:C 08 May 2019 15:07:20.433 # Configuration loaded
+8709:M 08 May 2019 15:07:20.434 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.4 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 8709
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+8709:M 08 May 2019 15:07:20.434 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+8709:M 08 May 2019 15:07:20.434 # Server initialized
+8709:M 08 May 2019 15:07:20.434 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+8709:M 08 May 2019 15:07:20.434 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+8709:M 08 May 2019 15:07:20.434 * Ready to accept connections
+8709:signal-handler (1557328113) Received SIGINT scheduling shutdown...
+8709:M 08 May 2019 15:08:33.374 # User requested shutdown...
+8709:M 08 May 2019 15:08:33.374 * Saving the final RDB snapshot before exiting.
+8709:M 08 May 2019 15:08:33.376 * DB saved on disk
+8709:M 08 May 2019 15:08:33.376 * Removing the pid file.
+8709:M 08 May 2019 15:08:33.376 # Redis is now ready to exit, bye bye...
+8714:C 08 May 2019 15:08:46.588 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8714:C 08 May 2019 15:08:46.588 # Redis version=5.0.4, bits=64, commit=00000000, modified=0, pid=8714, just started
+8714:C 08 May 2019 15:08:46.588 # Configuration loaded
+8714:M 08 May 2019 15:08:46.589 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.4 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 8714
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+8714:M 08 May 2019 15:08:46.590 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+8714:M 08 May 2019 15:08:46.590 # Server initialized
+8714:M 08 May 2019 15:08:46.590 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+8714:M 08 May 2019 15:08:46.590 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+8714:M 08 May 2019 15:08:46.590 * DB loaded from disk: 0.000 seconds
+8714:M 08 May 2019 15:08:46.590 * Ready to accept connections
+8714:signal-handler (1557328142) Received SIGINT scheduling shutdown...
+8714:M 08 May 2019 15:09:03.014 # User requested shutdown...
+8714:M 08 May 2019 15:09:03.014 * Saving the final RDB snapshot before exiting.
+8714:M 08 May 2019 15:09:03.016 * DB saved on disk
+8714:M 08 May 2019 15:09:03.016 * Removing the pid file.
+8714:M 08 May 2019 15:09:03.016 # Redis is now ready to exit, bye bye...
+8725:C 08 May 2019 15:09:37.916 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8725:C 08 May 2019 15:09:37.916 # Redis version=5.0.4, bits=64, commit=00000000, modified=0, pid=8725, just started
+8725:C 08 May 2019 15:09:37.916 # Configuration loaded
+8725:M 08 May 2019 15:09:37.917 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.4 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 8725
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+8725:M 08 May 2019 15:09:37.917 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+8725:M 08 May 2019 15:09:37.917 # Server initialized
+8725:M 08 May 2019 15:09:37.918 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+8725:M 08 May 2019 15:09:37.918 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+8725:M 08 May 2019 15:09:37.918 * Ready to accept connections
+8730:C 08 May 2019 15:10:21.682 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8730:C 08 May 2019 15:10:21.683 # Redis version=5.0.4, bits=64, commit=00000000, modified=0, pid=8730, just started
+8730:C 08 May 2019 15:10:21.683 # Configuration loaded
+8730:M 08 May 2019 15:10:21.684 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+8730:M 08 May 2019 15:10:21.684 # Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+8725:M 08 May 2019 19:55:38.597 * Replica 192.168.32.233:6379 asks for synchronization
+8725:M 08 May 2019 19:55:38.597 * Full resync requested by replica 192.168.32.233:6379
+8725:M 08 May 2019 19:55:38.597 * Starting BGSAVE for SYNC with target: disk
+8725:M 08 May 2019 19:55:38.597 * Background saving started by pid 8742
+8742:C 08 May 2019 19:55:38.599 * DB saved on disk
+8742:C 08 May 2019 19:55:38.600 * RDB: 0 MB of memory used by copy-on-write
+8725:M 08 May 2019 19:55:38.620 * Background saving terminated with success
+8725:M 08 May 2019 19:55:38.621 * Synchronization with replica 192.168.32.233:6379 succeeded
+8725:M 08 May 2019 20:01:42.066 # Connection with replica 192.168.32.233:6379 lost.
+8725:M 08 May 2019 20:22:00.118 * Replica 192.168.32.233:6379 asks for synchronization
+8725:M 08 May 2019 20:22:00.118 * Full resync requested by replica 192.168.32.233:6379
+8725:M 08 May 2019 20:22:00.118 * Starting BGSAVE for SYNC with target: disk
+8725:M 08 May 2019 20:22:00.119 * Background saving started by pid 8746
+8746:C 08 May 2019 20:22:00.122 * DB saved on disk
+8746:C 08 May 2019 20:22:00.122 * RDB: 0 MB of memory used by copy-on-write
+8725:M 08 May 2019 20:22:00.138 * Background saving terminated with success
+8725:M 08 May 2019 20:22:00.138 * Synchronization with replica 192.168.32.233:6379 succeeded
+8725:M 08 May 2019 20:22:05.452 # Connection with replica 192.168.32.233:6379 lost.
+8725:M 08 May 2019 20:22:08.736 * Replica 192.168.32.233:6379 asks for synchronization
+8725:M 08 May 2019 20:22:08.736 * Partial resynchronization request from 192.168.32.233:6379 accepted. Sending 0 bytes of backlog starting from offset 519.
+8725:M 08 May 2019 20:35:22.904 * Replica 192.168.32.234:6379 asks for synchronization
+8725:M 08 May 2019 20:35:22.904 * Full resync requested by replica 192.168.32.234:6379
+8725:M 08 May 2019 20:35:22.904 * Starting BGSAVE for SYNC with target: disk
+8725:M 08 May 2019 20:35:22.904 * Background saving started by pid 8770
+8770:C 08 May 2019 20:35:22.906 * DB saved on disk
+8770:C 08 May 2019 20:35:22.906 * RDB: 0 MB of memory used by copy-on-write
+8725:M 08 May 2019 20:35:22.918 * Background saving terminated with success
+8725:M 08 May 2019 20:35:22.918 * Synchronization with replica 192.168.32.234:6379 succeeded
